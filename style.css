@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --box-shadow: -5px 0 5px rgba(0, 0, 0, 0.507);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 3vw;
+    padding: 0 5vw;
+    background: rgb(255, 255, 229);
+}
+.global,
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i{
+    margin-right: 10px;
+}
+
+
+.global span {
+    font-size: 24px;
+}
+
+.wrap {
+    width: 100%;
+    height: 90px;
+    font-size: 20px;
+    background: rgb(50, 50, 230);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoImage {
+    width: auto;
+    height: 70px;
+    margin-left: 5vw;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    padding: 20px 0;
+    margin-right: 5vw;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#firstSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 33vw;
+    background-image: url('image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    width: 70vh;
+    height: auto;
+    padding: 20px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    opacity: 70%;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 15px 0;
+    border-bottom: 1px solid white;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#secondcontainer {
+    width: 100%;
+    height: auto;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#secondcontainer section {
+    margin-right: 20px;
+}
+
+h1{
+    color: rgb(31, 31, 250);
+    padding-bottom: 10px;
+}
+
+.blockView {
+    position: relative;
+    width: 40vw;
+    margin-top: 20px;
+    height:auto;
+    display: flex;
+    align-items: center;
+    background: rgb(247, 206, 206);
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+}
+
+.blockView img {
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    align-self: start;
+    padding-right: 10px;
+}
+
+.content {
+    padding-bottom: 30px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}
+
+.button{
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: rgb(236, 180, 26);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.507), 0 5px 5px rgba(0, 0, 0, 0.507);
+}
+
+.button:hover {
+    background-color: #333333;
+    color: white;
+}
+
+.country {
+    background: greenyellow;
+    width: auto;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.country ul,
+.date ul {
+    padding: 20px 50px;
+    
+}
+
+.date {
+    margin-top: 35px;
+    padding: 20px;
+    width: auto;
+    background: rgb(247, 247, 94);
+    border-radius: 5px;
+}
+
+.thirdcontainer {
+    background: rgb(175, 231, 90);
+    width: 100%;
+    height: auto;
+    padding: 20px 120px;
+}
+
+.blockcontainer {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.blockImage {
+    width: 350px;
+    height: auto;
+    margin: 5px;
+    padding-bottom: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.507), 0 5px 5px rgba(0, 0, 0, 0.507);
+}
+
+.blockImage img {
+    width: 100%;
+    height: 14vw;
+    border-radius: 5px 5px 0 0;   
+}
+
+.blockcontainer .blockImage article {
+    padding: 10px 30px;
+}
+
+.link {
+    display: inline-block;
+    text-align: center;
+    padding: 5px 100px;
+    background-color: rgb(236, 180, 26);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.507), 0 5px 5px rgba(0, 0, 0, 0.507);
+}
+
+.link:hover {
+    background-color: #333333;
+    color: white;
+}
+
+.finalcontainer {
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.finalcontainer h3 {
+    color: blue;
+}
+
+.finalcontainer section {
+    padding: 30px 0;
+}
+
+form section input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 32%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    background-color: rgb(236, 180, 26);
+    padding: 15px 10px;
+    border: none;
+    border-radius: 8%;
+    cursor: pointer;
+    font-weight: bolder;
+    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.507), 0 5px 5px rgba(0, 0, 0, 0.507);
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background: #333333;
+    color: white;
+    text-align: center; 
+    padding: 20px;  
+}
+
+footer p{
+    padding-top: 15px;
+}
+
+@media (max-width: 767px) {
+    #secondcontainer {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .blockView {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .blockView {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .country {
+        margin-right: 10px;
+    }
+    .button {
+        position: relative;
+        margin: 20px 10px;
+        width: 100%;
+    }
+
+    .blockView img {
+        width: 100%;
+        height: 20vh;
+    }
+
+    .blockImage img {
+        height: 20vh;
+    }
+
+    .secondclass {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+
+    .date {
+        margin-top: 0;
+    }
+
+}
+
+@media (max-width: 480px)  {
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .top {
+        font-size: 5vw;
+    }
+
+    .bottom {
+        font-size: 3vw;
+    }
+
+    .blockView img {
+        width: 100%;
+        height: 20vh;
+    }
+
+    .secondclass {
+        flex-direction: column;
+    }
+
+
+    .blockImage img {
+        height: 20vh;
+    }
+
+    .country {
+        margin-right: 0;
+        margin-bottom: 35px;
+    }
+
+    form section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form section input {
+        margin-right: 0;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+    width: 100%;
+    }
+}
